@@ -56,6 +56,38 @@ export const MainPage = () => {
                         </ul>
                     </div>
                 </section>
+                <section className='need-help'>
+                    <div className='need-help-title'>
+                        <p>Чем вы можете помочь?</p>
+                        <h3>Каждый может быть полезен</h3>
+                    </div>
+                    <div className='need-help-body'>
+                        <div className="card-img">
+                            <img src="/img/need-help1.jpg" alt=""/>
+                        </div>
+                        <div className="card">
+                            <img src="/icons/volounteer.png" alt=""/>
+                            <h4>Волонтёры</h4>
+                            <p>Мы рады объявить о запуске новой инициативы по привлечению волонтёров в различных регионах. Наша цель — объединить усилия активных и неравнодушных людей, которые готовы поддерживать проекты, способствующие развитию местных сообществ и улучшению качества жизни.</p>
+                            <button>
+                                <img src="/icons/add-icon.png" alt=""/>
+                                Оставить заявку
+                            </button>
+                        </div>
+                        <div className="card">
+                            <img src="/icons/patner.png" alt=""/>
+                            <h4>Партнёрство</h4>
+                            <p>Мы рады объявить о возможности партнёрства с компаниями, стремящимися поддерживать социальные и благотворительные инициативы. Наша организация активно работает над реализацией проектов, которые помогают улучшать жизнь людей и развивать местные сообщества.</p>
+                            <button>
+                                <img src="/icons/add-icon.png" alt=""/>
+                                Оставить заявку
+                            </button>
+                        </div>
+                        <div className="card-img">
+                            <img src="/img/need-help2.jpg" alt=""/>
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
     )

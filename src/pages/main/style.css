@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: column;
     padding-top: 100px;
-    background: url("/public/img/Line.png");
+    background: url("/public/img/Line.png") no-repeat;
 }
 
 .main-section-text {
@@ -123,3 +123,83 @@
 .main-section-info p img {
     margin-right: 8px;
 }
+
+.need-help {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.need-help-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.need-help-title p {
+    font-size: 20px;
+    color: #7B7B7B;
+    margin: 0 0 18px 0;
+}
+
+.need-help-title h3 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.need-help-body {
+    margin-top: 80px;
+    margin-bottom: 120px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(610px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    border-radius: 12px;
+    background-color: #fff;
+    padding: 40px;
+}
+
+.card-img img {
+    border-radius: 12px;
+}
+
+.card img {
+    margin-bottom: 104px;
+    width: 66px;
+    height: 66px;
+}
+
+.card h4 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.card p {
+    color: #2C2D2E;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    opacity: 0.7;
+}
+
+.card button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #2C2D2E;
+    color: #fff;
+    border: none;
+    padding: 14px 76px;
+    border-radius: 4px;
+}
+
+.card button img {
+    width: 16px;
+    height: 16px;
+    margin: 0 13px 0 0;
+}
+
