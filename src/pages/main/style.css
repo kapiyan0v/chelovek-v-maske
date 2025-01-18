@@ -1,5 +1,4 @@
 .main-page {
-    background-color: #F3F3F5;
     font-family: 'SF Pro Display', sans-serif;
 }
 
@@ -7,7 +6,7 @@
     display: flex;
     flex-direction: column;
     padding-top: 100px;
-    background: url("/public/img/Line.png") no-repeat;
+    background: #F3F3F5 url("/public/img/Line.png") no-repeat;
 }
 
 .main-section-text {
@@ -125,10 +124,11 @@
 }
 
 .need-help {
-    margin-top: 100px;
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #F3F3F5;
 }
 
 .need-help-title {
@@ -202,4 +202,332 @@
     height: 16px;
     margin: 0 13px 0 0;
 }
+
+.anketa {
+    background-color: #E0E1E6;
+    padding: 120px 0;
+}
+
+.anketa-main {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.anketa-main img {
+    border-radius: 20px 0 0 20px;
+}
+
+.anketa-main-body {
+    margin: 85px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.anketa-main-body h2 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #2C2D2E;
+    margin: 0 0 24px 0;
+}
+
+.anketa-main-body p {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #7B7B7B;
+    margin: 0 0 130px 0;
+}
+
+.anketa-main-body button {
+    background-color: #2C2D2E;
+    border: none;
+    color: #fff;
+    padding: 14px 171px;
+    margin: 0 0 24px 0;
+}
+
+.anketa-main-body span {
+    color: #7B7B7B;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+}
+
+.about-us {
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 0;
+    padding: 80px 0 0 0;
+}
+
+.about-us-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us-title p {
+    font-size: 20px;
+    color: #7B7B7B;
+    line-height: 24px;
+    margin: 0 0 18px 0;
+}
+
+.about-us-title h3 {
+    font-size: 40px;
+    color: #2C2D2E;
+    font-weight: 600;
+    margin: 0;
+}
+
+.about-us-body {
+    display: flex;
+    flex-direction: row;
+    margin: 80px 0 100px 0;
+}
+
+.about-us-card {
+    background-color: #F3F3F5;
+    padding: 24px 26px;
+    margin-right: 24px;
+}
+
+.about-us-card:last-child {
+    margin-right: 0;
+}
+
+.about-us-card img {
+    width: 345px;
+    height: 250px;
+    margin: 0 0 22px 0;
+}
+
+.about-us-card h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2C2D2E;
+    line-height: 28px;
+    margin: 0 0 18px 0;
+}
+
+.about-us-card p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7B7B7B;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    margin: 0 0 24px 0;
+}
+
+.about-us-card button {
+    background-color: #2C2D2E;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 14px 107px;
+    color: #fff;
+    border: none;
+}
+
+.about-us-card button img {
+    width: 16px;
+    height: 16px;
+    margin: 0 13px 0 0;
+}
+
+.last-news {
+    background-color: #F3F3F5;
+    padding: 80px 0;
+}
+
+.last-news-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.last-news-title p {
+    font-size: 20px;
+    color: #7B7B7B;
+    line-height: 24px;
+    margin: 0 0 18px 0;
+}
+
+.last-news-title h3 {
+    font-size: 40px;
+    color: #2C2D2E;
+    font-weight: 600;
+    margin: 0;
+}
+
+.last-news-body {
+    margin: 80px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.last-news-body-info {
+    background-color: #fff;
+    border-radius: 12px;
+    margin-right: 24px;
+    width: 608px;
+    height: 476px;
+    padding: 50px;
+}
+
+.last-news-body-img img {
+    border-radius: 12px;
+}
+
+.last-news-body-info small {
+    color: #7B7B7B;
+}
+
+.last-news-body-info h3 {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 44px;
+    margin: 57px 0 24px 0;
+}
+
+.last-news-body-info p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7B7B7B;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    margin: 0 0 57px 0;
+}
+
+.last-news-body-info-arrows {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.last-news-body-info-arrows img {
+    margin-right: 14px;
+}
+
+.donation {
+    background-color: #E0E1E6;
+    border-radius: 50px;
+    padding: 120px 0;
+}
+
+.donation-body {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
+
+.donation-body-info {
+    background-color: #F9F9FA;
+    border-radius: 20px 0 0 20px;
+    padding: 50px 70px 50px 50px;
+    width: 500px;
+}
+
+.donation-body-info h4 {
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0 0 24px 0;
+    line-height: 44px;
+}
+
+.donation-body-info p {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #7B7B7B;
+    margin: 0 0 114px 0;
+}
+.donation-body-info span {
+    color: #7B7B7B;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.2px
+}
+
+.donation-body-action {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 109px 50px 88px;
+}
+
+.donation-body-action h4 {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 44px;
+    margin: 0 0 50px 0;
+}
+
+.donation-body-action-sums {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(181px, 192px));
+    gap: 20px 20px;
+}
+
+.donation-body-action-sum {
+    background-color: #F9F9FA;
+    padding: 14px 18px;
+    margin-bottom: 22px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.donation-body-action-sum span {
+    margin-right: 8px;
+}
+
+.donation-body-action-sum input[type="radio"] {
+    display: none;
+}
+
+.donation-body-action-sum .radio-mark {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #c5c5d1; /* Light gray border for unselected */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-color 0.3s ease;
+}
+
+.donation-body-action-sum .radio-mark::after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-color: #fff; /* Dark color for selected inner dot */
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.donation-body-action-sum input[type="radio"]:checked + .radio-mark {
+    border-color: #2C2D2E;
+    background-color: #2C2D2E;
+}
+
+.donation-body-action-sum input[type="radio"]:checked + .radio-mark::after {
+    opacity: 1; /* Show the inner dot */
+}
+
+.donation-body-action button {
+    background-color: #2C2D2E;
+    border: none;
+    color: #fff;
+    padding: 14px 158px;
+    font-size: 16px;
+}
+
 
